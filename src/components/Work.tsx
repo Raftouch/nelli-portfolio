@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { MyExperience } from '../models'
+import { MyExperience } from '../models/MyExperience'
 
 interface WorkProps {
     job: MyExperience
@@ -20,6 +20,7 @@ export function Work({job}: WorkProps) {
             </button>
             {details && 
             <div className='w-[300px] text-center'>
+                <p>{job.period}</p>
                 <p>{job.description}</p>
             </div>}
         </div>

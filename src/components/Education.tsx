@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { MyExperience } from '../models'
+import { MyExperience } from '../models/MyExperience'
 
 interface EducationProps {
     study: MyExperience
@@ -20,6 +20,7 @@ export function Education({study}: EducationProps) {
             </button>
             {details && 
             <div className='w-[300px] text-center'>
+                <p>{study.period}</p>
                 <p>{study.description}</p>
             </div>}
         </div>

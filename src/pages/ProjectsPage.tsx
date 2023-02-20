@@ -1,9 +1,13 @@
 import React from 'react'
+import { Projects } from '../components/Projects'
+import { projects } from '../data/project'
 
 export function ProjectsPage() {
     return (
-        <div className='mt-20 text-center'>  
-            These are my projects
+        <div>  
+          
+            {projects.map(project => <Projects project={project} key={project.id} />)}
+
 
           {/* { loading && <Loader /> }
           { error && <ErrorMsg error={error} /> } */}

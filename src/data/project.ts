@@ -1,34 +1,48 @@
-import { MyProjects } from "../models/MyProjects";
+import { MyProject } from "../models/MyProject"
+import previewCard from '../images/previewCard.png'
+import selfCareCenter from '../images/selfCareCenter.png'
 
-export const projects: MyProjects[] = [
+export const projects: MyProject[] = [
     {
         id: 1,
         title: 'Interactive card details form',
-        languages: 'html css js'
+        image: '',
+        languages: 'html css js',
+        url: 'https://github.com/Raftouch/interactive-card-details-form'
     },
     {
         id: 2,
         title: 'Interactive pricing component',
-        languages: 'html css js'
+        image: '',
+        languages: 'html css js',
+        url: 'https://github.com/Raftouch/interactive-pricing-component'
     },
     {
         id: 3,
         title: '3-column preview card component',
-        languages: 'html css'
+        image: previewCard,
+        languages: 'html css',
+        url: 'https://github.com/Raftouch/3-column-preview-card-component'
     },
     {
         id: 4,
         title: 'Self care center',
-        languages: 'html css js'
+        image: selfCareCenter,
+        languages: 'html css js',
+        url: 'https://github.com/Raftouch/self-care-center'
     },
     {
         id: 5,
         title: 'Order summary component',
-        languages: 'html css'
+        image: '',
+        languages: 'html css',
+        url: 'https://github.com/Raftouch/order_summary_component'
     },
     {
-        id: 5,
+        id: 6,
         title: 'Maquette Simplon',
-        languages: 'html css js'
+        image: '',
+        languages: 'html css js',
+        url: 'https://github.com/Raftouch/Maquette'
     }
 ]

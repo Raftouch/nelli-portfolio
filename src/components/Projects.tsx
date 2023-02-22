@@ -8,11 +8,11 @@ interface ProjectProps {
 
 export function Projects({project}: ProjectProps) {
     return (
-        <div className='border py-2 px-4 rounded flex flex-col mb-2 min-w-[300px] items-center'>
-            <p>{project.title}</p>
-            <img className='min-w-[350px] min-h-[250px]' src={project.image}/>
-            <p>{project.languages}</p>
-            <Link to={project.url} target='_blank'>link</Link>
+        <div className='border p-2 rounded flex flex-col m-2 min-w-[350px] items-center'>
+            <p className='font-bold'>{project.title}</p>
+            <Link to={project.url} target='_blank'>
+                <img className='w-[350px] h-[250px] rounded' src={project.image}/>
+            </Link>
         </div>
     )
 }

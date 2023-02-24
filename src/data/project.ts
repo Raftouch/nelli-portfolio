@@ -7,6 +7,7 @@ import orderSummary from '../images/orderSummary.png'
 import faqCard from '../images/faqCard.png'
 import moviesApp from '../images/moviesApp.png'
 import landingPage from '../images/landingPage.png'
+import reactToDoList from '../images/reactToDoList.png'
 
 export const projects: MyProject[] = [
     {
@@ -29,7 +30,7 @@ export const projects: MyProject[] = [
     },
     {
         id: 4,
-        title: 'Self care center',
+        title: 'Self Care center',
         image: selfCareCenter,
         url: 'https://github.com/Raftouch/self-care-center'
     },
@@ -41,9 +42,9 @@ export const projects: MyProject[] = [
     },
     {
         id: 6,
-        title: 'Maquette Simplon',
-        image: '',
-        url: 'https://github.com/Raftouch/Maquette'
+        title: 'React To do list',
+        image: reactToDoList,
+        url: 'https://github.com/Raftouch/react-training-todolist'
     },
     {
         id: 7,

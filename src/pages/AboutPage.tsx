@@ -1,35 +1,34 @@
 import React from 'react'
-import { Education } from '../components/Education'
-import { Work } from '../components/Work'
-import { studies } from '../data/study'
-import { jobs } from '../data/work'
-import languages1 from '../images/languages1.png'
-import languages2 from '../images/languages2.png'
+import languages from '../images/languages.png'
 
 export function AboutPage() {
-    const heading = ['text-center mb-10 animate-bounce font-bold uppercase text-xl']
+    const heading = ['text-center mb-5 mt-8 font-bold uppercase text-xl justify-items-center']
 
     return (
-        <>
-        <div className='container m-20 flex gap-10 justify-center flex-wrap mx-auto'>
-            <div>
-                <h1 className={heading.join('')}>Studies</h1>
-                <div className='flex flex-wrap justify-center gap-5'>
-                    {studies.map(study => <Education study={study} key={study.id}/>)}
+        <div className='grid grid-cols-1 md:grid-cols-2 justify-items-center'>
+            {/* <div className='flex flex-col items-center justify-center'>
+                <p className={heading.join('')}>IT Skills</p>
+                <div className='flex'>
+                    <img src={languages} alt="languages"/>
                 </div>
-            </div>
-            <div>
-                <h1 className={heading.join('')}>Work experience</h1>
-                <div className='flex flex-wrap justify-center gap-5'>
-                    {jobs.map(job => <Work job={job} key={job.id}/>)}
-                </div>
-            </div>
+            </div> */}
+            {/* <div>
+                <p className={heading.join('')}>Languages</p>
+                <table className='flex flex-col justify-center items-center'>
+                    <tr>
+                        <td className='p-3 text-violet-700'>BONJOUR</td>
+                        <td className='p-3 text-green-700'>BUENOS DIAS</td>
+                    </tr>
+                    <tr>
+                        <td className='p-3 text-rose-700'>HELLO</td>
+                        <td className='p-3 text-blue-700'>ПРИВЕТ</td>
+                    </tr>
+                    <tr>
+                        <td className='p-3 text-lime-700'>GUTEN TAG</td>
+                        <td className='p-3 text-red-700'>안녕하세요</td>
+                    </tr>
+                </table>
+            </div> */}
         </div>
-        <p className={heading.join('')}>IT Skills</p>
-        <div className='flex items-center justify-center flex-wrap pb-20'>
-            <img src={languages1} alt="languages1"/>
-            <img src={languages2} alt="languages2"/>
-        </div>
-        </>
     )
 }

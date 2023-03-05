@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext, useState, useMemo } from 'react'
 import { Navigation } from './components/Navigation'
 import { AboutPage } from './pages/AboutPage'
 import { ProjectsPage } from './pages/ProjectsPage'
@@ -6,27 +6,44 @@ import { HomePage } from './pages/HomePage'
 import { Route, Routes } from 'react-router-dom'
 import { Modal } from './components/Modal'
 import { Contact } from './components/Contact'
-import emailLogo from './images/emailLogo.png'
 import { ModalContext } from './context/ModalContext'
+import { Experience } from './components/Experience'
 
 function App() {
   const {modal, open ,close} = useContext(ModalContext)
+  const [dark, setDark] = useState(false)
+
+  const themeStyles = useMemo(() => {
+    return {
+      backgroundColor: dark ? 'black' : 'white',
+      color: dark ? 'white' : 'black'
+    }
+  }, [dark])
 
   return (
-    <>
+    <div style={themeStyles}>
+    
     <Navigation />
-    <Routes>
+    <Routes >
       <Route path="/" element={<HomePage />} />
-       <Route path="/about" element={<AboutPage />} />
+       {/* <Route path="/about" element={<AboutPage />} /> */}
        <Route path="/projects" element={<ProjectsPage />} />
     </Routes>
-    {modal && <Modal onClose={close}>
-      <Contact />
-    </Modal>}
-    <button className='fixed bottom-5 right-5' onClick={open}>
-      <img className='w-[50px]' src={emailLogo} alt={emailLogo}/>
-    </button>
-    </>
+    <Contact />
+
+      {modal && <Modal onClose={close}>
+        <Experience />
+      </Modal>}
+      
+      <div className='fixed bottom-5 right-4 flex flex-col items-end space-y-5 '>
+        <button onClick={open}>
+          <img className='rounded-full border-white bg-white border-2 w-[50px] hover:bg-slate-500' src='../images/exp.png' alt='experience'/>
+        </button>
+        <button onClick={() => setDark(prevDark => !prevDark)}>
+          <img className='rounded-full border-white bg-white border-2 w-[50px] hover:bg-slate-500' src='../images/lightDark.png' alt='light-dark icon'/>
+        </button>
+      </div>
+    </div>
   )
 }
 

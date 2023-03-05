@@ -7,7 +7,6 @@ export function Navigation() {
             <span className='max-w-[130px]'>Nelli Timorshina WEB DEVELOPER</span>
             <span>
                 <Link to="/" className='mr-5 hover:text-slate-500'>Home</Link>
-                {/* <Link to="#exp" className='mr-5 hover:text-slate-500'>Experience</Link> */}
                 <Link to="/projects" className='hover:text-slate-500'>Projects</Link>
             </span>
         </nav>

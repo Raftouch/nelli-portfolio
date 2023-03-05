@@ -8,7 +8,7 @@ interface SkillsProps {
     skills: Array<MySkills>;
 }
 
-export default function Skills({skills}: SkillsProps) {
+export function Skills({skills}: SkillsProps) {
     const [currentIndex, setCurrentIndex] = useState(0)
 
     const prevSlide = () => {
@@ -29,9 +29,9 @@ export default function Skills({skills}: SkillsProps) {
 
   return (
     <div className='max-w-[700px] m-auto py-20 px-4 relative group'>
-        <h1 id='exp' className='text-center m-10 uppercase text-3xl'>Skills</h1>
+        <h1 className='text-center m-10 uppercase text-3xl'>Skills</h1>
         <div className='border-2 flex flex-col justify-center items-center pt-10 pb-10 pl-12 pr-12 m-auto h-[400px]'>
-            <p className='uppercase font-bold text-xl'
+            <p className='uppercase font-bold text-xl mb-3'
             >
                 {skills[currentIndex].title}</p>
            <img src={skills[currentIndex].url} />

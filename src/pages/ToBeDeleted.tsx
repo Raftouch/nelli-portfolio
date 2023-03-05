@@ -14,17 +14,23 @@ export function HomePage() {
             </div> */}
             {/* <div>
                 <p className={heading.join('')}>Languages</p>
-                <table className='flex flex-col justify-center items-center'>
+                <table className='flex flex-col justify-center items-center text-xl mb-20'>
                     <tr>
                         <td className='p-3 text-violet-700'>BONJOUR</td>
+                    </tr>
+                    <tr>
                         <td className='p-3 text-green-700'>BUENOS DIAS</td>
                     </tr>
                     <tr>
                         <td className='p-3 text-rose-700'>HELLO</td>
+                    </tr>
+                    <tr>
                         <td className='p-3 text-blue-700'>ПРИВЕТ</td>
                     </tr>
                     <tr>
                         <td className='p-3 text-lime-700'>GUTEN TAG</td>
+                    </tr>
+                    <tr>
                         <td className='p-3 text-red-700'>안녕하세요</td>
                     </tr>
                 </table>

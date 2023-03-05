@@ -1,13 +1,12 @@
 import React, { useContext, useState, useMemo } from 'react'
 import { Navigation } from './components/Navigation'
-import { AboutPage } from './pages/AboutPage'
 import { ProjectsPage } from './pages/ProjectsPage'
-import { HomePage } from './pages/HomePage'
 import { Route, Routes } from 'react-router-dom'
 import { Modal } from './components/Modal'
 import { Contact } from './components/Contact'
 import { ModalContext } from './context/ModalContext'
 import { Experience } from './components/Experience'
+import { AboutPage } from './pages/AboutPage'
 
 function App() {
   const {modal, open ,close} = useContext(ModalContext)
@@ -25,8 +24,7 @@ function App() {
     
     <Navigation />
     <Routes >
-      <Route path="/" element={<HomePage />} />
-       {/* <Route path="/about" element={<AboutPage />} /> */}
+      <Route path="/" element={<AboutPage />} />
        <Route path="/projects" element={<ProjectsPage />} />
     </Routes>
     <Contact />

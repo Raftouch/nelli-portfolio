@@ -1,12 +1,13 @@
 import React, { useContext, useState, useMemo } from 'react'
 import { Navigation } from './components/Navigation'
-import { ProjectsPage } from './pages/ProjectsPage'
 import { Route, Routes } from 'react-router-dom'
 import { Modal } from './components/Modal'
 import { Contact } from './components/Contact'
 import { ModalContext } from './context/ModalContext'
 import { Experience } from './components/Experience'
 import { AboutPage } from './pages/AboutPage'
+import { ProjectPart } from './components/ProjectPart'
+import cv from './images/cv.png'
 
 function App() {
   const {modal, open ,close} = useContext(ModalContext)
@@ -23,17 +24,19 @@ function App() {
     <div style={themeStyles}>
     
     <Navigation />
+
     <Routes >
       <Route path="/" element={<AboutPage />} />
-       <Route path="/projects" element={<ProjectsPage />} />
+       <Route path="/projects" element={<ProjectPart />} />
     </Routes>
     <Contact />
 
       {modal && <Modal onClose={close}>
-        <Experience />
+        <img className='m-auto pt-10 w-[400px]' src={cv} />
+        {/* <Experience /> */}
       </Modal>}
       
-      <div className='fixed bottom-5 right-4 flex flex-col items-end space-y-5 '>
+      <div className='fixed bottom-1/4 right-4 flex flex-col items-end space-y-5 '>
         <button onClick={open}>
           <img className='rounded-full border-white bg-white border-2 w-[50px] hover:bg-slate-500' src='../images/exp.png' alt='experience'/>
         </button>
@@ -41,6 +44,7 @@ function App() {
           <img className='rounded-full border-white bg-white border-2 w-[50px] hover:bg-slate-500' src='../images/lightDark.png' alt='light-dark icon'/>
         </button>
       </div>
+
     </div>
   )
 }

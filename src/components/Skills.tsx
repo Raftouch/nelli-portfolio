@@ -2,23 +2,23 @@ import React, { useState } from 'react'
 import {BsChevronCompactLeft} from 'react-icons/bs'
 import {BsChevronCompactRight} from 'react-icons/bs'
 import {RxDotFilled} from 'react-icons/rx'
-import { MySkills } from '../models/MySkills'
+import { MyProject } from '../models/MyProject'
 
-interface SkillsProps {
-    skills: Array<MySkills>;
+interface ProjectProps {
+    projects: Array<MyProject>;
 }
 
-export function Skills({skills}: SkillsProps) {
+export function Skills({projects}: ProjectProps) {
     const [currentIndex, setCurrentIndex] = useState(0)
 
     const prevSlide = () => {
         const isFirstSlide = currentIndex === 0;
-        const newIndex = isFirstSlide ? skills.length-1 : currentIndex-1;
+        const newIndex = isFirstSlide ? projects.length-1 : currentIndex-1;
         setCurrentIndex(newIndex);
     }
 
     const nextSlide = () => {
-        const isLastSlide = currentIndex === skills.length-1;
+        const isLastSlide = currentIndex === projects.length-1;
         const newIndex = isLastSlide ? 0 : currentIndex+1;
         setCurrentIndex(newIndex);
     }
@@ -28,13 +28,13 @@ export function Skills({skills}: SkillsProps) {
     }
 
   return (
-    <div className='max-w-[700px] m-auto py-20 px-4 relative group'>
-        <h1 className='text-center m-10 uppercase text-3xl'>Skills</h1>
-        <div className='border-2 flex flex-col justify-center items-center pt-10 pb-10 pl-12 pr-12 m-auto h-[400px]'>
-            <p className='uppercase font-bold text-xl mb-3'
+    <div className='z-0 max-w-[700px] m-auto py-20 px-4 relative group'>
+        <h1 id='projects' className='text-center m-10 uppercase text-3xl'>Projects</h1>
+        <div className='border p-2 rounded flex flex-col m-2 min-w-[350px] items-center hover:drop-shadow-2xl'>
+            <p className='text-center uppercase font-bold text-lg mb-3'
             >
-                {skills[currentIndex].title}</p>
-           <img src={skills[currentIndex].url} />
+                {projects[currentIndex].title}</p>
+           <img className='w-[400px] cursor-pointer' src={projects[currentIndex].image} />
         </div>
         <div className='absolute top-[50%] -translate-x-0 translate-y-[20%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white hover:text-slate-500 cursor-pointer'>
             <BsChevronCompactLeft onClick={prevSlide} size={30} />
@@ -43,7 +43,7 @@ export function Skills({skills}: SkillsProps) {
             <BsChevronCompactRight onClick={nextSlide} size={30} />
         </div>
         <div className='flex justify-center py-5 '>
-            {skills.map((slide, slideIndex) => (
+            {projects.map((project, slideIndex) => (
                 <div 
                     key={slideIndex} 
                     onClick={() => goToSlide(slideIndex)} 

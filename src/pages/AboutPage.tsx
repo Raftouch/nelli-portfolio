@@ -1,13 +1,12 @@
 import React from 'react'
-import { Intro } from '../components/Intro'
-import { Skills } from '../components/Skills'
-import { skills } from '../data/skills'
+import { AboutPart } from '../components/AboutPart'
+import { ProjectPart } from '../components/ProjectPart'
 
 export function AboutPage() {
     return (
         <div className='h-full'>
-            <Intro />
-            <Skills skills={skills} />
+            <AboutPart />
+            <ProjectPart />
         </div>
     )
 }

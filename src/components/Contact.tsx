@@ -7,7 +7,7 @@ import Mailto from "react-mailto-link";
 
 export function Contact() {
     return (
-        <div className='fixed bottom-5 left-4 flex flex-col space-y-5 w-[50px]'>
+        <div className='fixed bottom-1/4 left-4 flex flex-col space-y-5 w-[50px]'>
             <Link to='https://www.linkedin.com/in/nelli-timorshina/' target='_blank'>
                 <img className='w-[100px] bg-white rounded-full border-2 hover:bg-slate-500' src={linkedinLogo} alt={linkedinLogo}/>
             </Link>

@@ -22,6 +22,7 @@ export function AboutPart() {
               <img src='./logos/ts.png' alt='logo typescript'/>
               <img src='./logos/wp.png' alt='logo wordpress'/>
               <img src='./logos/figma.png' alt='logo figma'/>
+              <img src='./logos/nodejs.png' alt='logo nodejs'/>
             </div>
           </div>
           <div>

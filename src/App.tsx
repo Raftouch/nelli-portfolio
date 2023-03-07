@@ -4,10 +4,10 @@ import { Route, Routes } from 'react-router-dom'
 import { Modal } from './components/Modal'
 import { Contact } from './components/Contact'
 import { ModalContext } from './context/ModalContext'
-import { Experience } from './components/Experience'
 import { AboutPage } from './pages/AboutPage'
 import { ProjectPart } from './components/ProjectPart'
 import cv from './images/cv.png'
+import { Resume } from './components/Resume'
 
 function App() {
   const {modal, open ,close} = useContext(ModalContext)
@@ -32,8 +32,8 @@ function App() {
     <Contact />
 
       {modal && <Modal onClose={close}>
-        <img className='m-auto pt-10 w-[400px]' src={cv} />
-        {/* <Experience /> */}
+        {/* <img className='m-auto pt-10 w-[450px]' src={cv} /> */}
+        <Resume />
       </Modal>}
       
       <div className='fixed bottom-1/4 right-4 flex flex-col items-end space-y-5 '>

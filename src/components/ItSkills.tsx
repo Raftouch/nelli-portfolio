@@ -8,7 +8,7 @@ interface ItSkillsProps {
 export function ItSkills({it}: ItSkillsProps) {
   return (
     <div>
-                <p>{it.title}</p>
-        </div>
+        {it.title}
+    </div>
   )
 }

@@ -3,6 +3,7 @@ import { Contact } from './Contact'
 import { Experience } from './Experience'
 import Skills from './Skills'
 import cvpic from '../images/cvpic.png'
+import { CvContacts } from './CvContacts'
 
 export function Resume() {
   return (
@@ -16,7 +17,8 @@ export function Resume() {
             </div>
         </div>
         <div className='flex flex-wrap'>
-            <div className='w-[200px]'>
+            <div className='w-[250px]'>
+                <CvContacts />
                 <Skills />
             </div>
             <div>

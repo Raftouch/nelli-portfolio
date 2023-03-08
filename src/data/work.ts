@@ -4,29 +4,29 @@ export const jobs: MyExperience[] = [
     {
         id: 1,
         name: 'Moncler',
-        occupation: 'Client Service Advisor',
+        occupation: 'Service Client',
         period: '11/2021 – 01/2022',
-        description: 'Product information, phone sales, after-sales service, analysis of customer needs, experiences and interests in order to improve the customer experience'
+        description: 'Renseignements sur les produits, vente en ligne, service après-vente, analyse des expériences des clients'
     },
     {
         id: 2,
         name: 'Nexus Europe',
         occupation: 'Freelance',
         period: '09/2019 – 09/2021',
-        description: 'Market research projects, participation at trade fairs at Parc des Expositions de Villepinte, translation'
+        description: 'Études de marché, participation aux salons professionnels au Parc des Expositions Villepinte, traduction'
     },
     {
         id: 3,
         name: 'Questel',
-        occupation: 'Key Account Manager',
+        occupation: 'Chargée des comptes clients',
         period: '05/2016 – 04/2019',
-        description: 'Сontract negotiation, closing, new customers onboarding, customer experience management, organization and realization of trainings on the Orbit software for patent search and analysis'
+        description: 'Monitoring et pilotage de l’expérience client, optimisation de la satisfaction client, onboarding des nouveaux clients, organisation et réalisation des formations sur le logiciel Orbit pour la recherche et l’analyse de brevets'
     },
     {
         id: 4,
         name: 'Sodimate',
-        occupation: 'Sales Marketing Assistant',
+        occupation: 'Chargée d\'affaires et marketing',
         period: '02/2014 – 01/2016',
-        description: 'Assistance in setting up the sales office in Germany, creating a website in WordPress, updating website animation spaces'
+        description: 'Assistance à l’implantation du bureau commercial en Allemagne, création du site web en WordPress, mise à jour des espaces d’animation du site'
     }
 ]

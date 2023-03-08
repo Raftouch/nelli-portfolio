@@ -4,14 +4,14 @@ export const studies: MyExperience[] = [
     {
         id: 1,
         name: 'Simplon',
-        occupation: 'Web development',
+        occupation: 'Développement web et web mobile',
         period: '12/2022 - 07/2023',
-        description: 'Front-end (ReactJS) & back-end (NodeJS) development, creating interface design (Figma), scrum'
+        description: 'Développement front-end (ReactJS) & back-end (NodeJS), maquettage du site web (Figma), méthodes agiles'
     },
     {
         id: 2,
         name: 'Autoformation',
-        occupation: 'Web development',
+        occupation: 'Développement web',
         period: '08 - 11/2022',
         description: 'HTML, CSS, JavaScript, SQL, Java, C# Certifications Sololearn.com'
     },
@@ -20,13 +20,13 @@ export const studies: MyExperience[] = [
         name: 'ESCE Paris',
         occupation: 'Master 2',
         period: '2013 – 2014',
-        description: 'International Finance'
+        description: 'Finance Internationale'
     },
     {
         id: 4,
         name: 'ESB Reutlingen',
-        occupation: 'Bachelor',
+        occupation: 'Licence',
         period: '2009 – 2012',
-        description: 'International Business'
+        description: 'Commerce International'
     }
 ]

@@ -6,7 +6,6 @@ interface WorkProps {
 }
 
 export function Work({job}: WorkProps) {
-
     return (
         <div className='border py-2 px-4 rounded flex flex-col mb-2 w-[350px]'>
             <p className='font-bold'>{job.name}</p>

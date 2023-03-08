@@ -11,13 +11,13 @@ export function Experience() {
   return (
     <div className='flex flex-col'>
         <div>
-            <h1 className={heading.join('')}>Studies</h1>
+            <h1 className={heading.join('')}>Études</h1>
             <div className={experience.join('')}>
                 {studies.map(study => <Education study={study} key={study.id}/>)}
             </div>
         </div>
         <div>
-            <h1 className={heading.join('')}>Work experience</h1>
+            <h1 className={heading.join('')}>Expériences professionnelles</h1>
             <div className={experience.join('')}>
                 {jobs.map(job => <Work job={job} key={job.id}/>)}
             </div>

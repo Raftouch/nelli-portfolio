@@ -1,4 +1,4 @@
-import { MySkills } from "../models/MySkills";
+import { MySkills } from "../models/MySkills"
 
 export const languages: MySkills[] = [
     {

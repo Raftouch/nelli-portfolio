@@ -1,5 +1,4 @@
 import React from 'react'
-import { hobbies } from '../data/hobby'
 import { MySkills } from '../models/MySkills'
 
 interface HobbyProps {

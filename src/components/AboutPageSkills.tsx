@@ -1,8 +1,8 @@
 import React from 'react'
+import { Languages } from './Languages'
 
 export function AboutPageSkills() {
   return (
-    <>
     <div>
         <h1 className='uppercase font-bold mb-5'>IT Skills</h1>
         <div className='flex gap-3 items-center flex-wrap'>
@@ -14,19 +14,10 @@ export function AboutPageSkills() {
             <img src='./logos/wp.png' alt='logo wordpress'/>
             <img src='./logos/figma.png' alt='logo figma'/>
             <img src='./logos/nodejs.png' alt='logo nodejs'/>
+            <img src='./logos/bootstrap.png' alt='logo bootstrap'/>
+            <img src='./logos/tailwind.png' alt='logo tailwind'/>
+            <img src='./logos/mongodb.png' alt='logo mongodb'/>
         </div>
     </div>
-    <div>
-        <h1 className='uppercase font-bold mb-5'>Languages</h1>
-        <div className='flex gap-5 items-center flex-wrap'>
-            <p className='text-violet-700'>Français</p>
-            <p className='text-green-700'>Anglais</p>
-            <p className='text-blue-700'>Allemand</p>
-            <p className='text-cyan-700'>Russe</p>
-            <p className='text-yellow-700'>Espagnol</p>
-            <p className='text-red-700'>Turque</p>  
-        </div>
-    </div>
-    </>
   )
 }

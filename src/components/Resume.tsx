@@ -1,8 +1,8 @@
 import React from 'react'
 import { Experience } from './Experience'
-import Skills from './Skills'
 import cvpic from '../images/cvpic.png'
 import { CvContacts } from './CvContacts'
+import { Skills } from './Skills'
 
 export function Resume() {
   return (

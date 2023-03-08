@@ -1,23 +1,25 @@
 import React from 'react'
-import { itskills } from '../data/itskills'
 import { softskills } from '../data/softskills'
-import { ItSkills } from './ItSkills'
 import { SoftSkills } from './SoftSkills'
 import { Languages } from './Languages'
 import { Hobby } from './Hobby'
 import { hobbies } from '../data/hobby'
 import { languages } from '../data/languages'
+import { ItSkills } from './ItSkills'
+import { itskills } from '../data/itskills'
 
-export default function Skills() {
+export function Skills() {
     const heading = ['mb-3 mt-5 ml-5 font-bold uppercase justify-items-center']
-    const skill = ['flex flex-col flex-wrap justify-center gap-5 m-5 pl-2']
+    const skill = ['flex flex-col flex-wrap justify-center gap-3 m-5 pl-2']
 
   return (
     <div className='flex flex-col'>
         <div>
             <h1 className={heading.join('')}>IT Skills</h1>
             <div className={skill.join('')}>
-                {itskills.map(it => <ItSkills it={it} key={it.id}/>)}
+                <div className='grid grid-cols-2 gap-5 mt-2'>
+                    {itskills.map(it => <ItSkills it={it} key={it.id} />)}
+                </div>
             </div>
         </div>
         <div>
@@ -29,11 +31,11 @@ export default function Skills() {
 
         <div>
             <h1 className={heading.join('')}>Langues</h1>
-            <div className='flex w-[150px] pl-7 mb-5'>
-                <div className='flex flex-col gap-5'>
+            <div className='flex w-[150px]'>
+                <div className={skill.join('')}>
                     {languages.map(language => <Languages language={language} key={language.id}/>)}
                 </div>
-                <div className='flex flex-col gap-5 ml-5 text-green-600'>
+                <div className={skill.join('text-green-600')}>
                     <p>&#10003;&#10003;&#10003;&#10003;</p>
                     <p>&#10003;&#10003;&#10003;&#10003;</p>
                     <p>&#10003;&#10003;&#10003;&#10003;</p>

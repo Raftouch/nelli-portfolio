@@ -1,6 +1,7 @@
 import React from 'react'
+import { itskills } from '../data/itskills'
 import nellidev1 from '../images/nellidev1.png'
-import { AboutPageSkills } from './AboutPageSkills'
+import { ItSkills } from './ItSkills'
 
 export function AboutPart() {
   return (
@@ -12,7 +13,12 @@ export function AboutPart() {
             <p className='mb-5'>Bonjour, moi c'est Nelli,</p>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut quia laudantium doloribus corporis corrupti eveniet aliquam quidem quo eum magni consequuntur repellat, asperiores, excepturi minus sint commodi quis laboriosam veritatis.</p>
           </div>
-         <AboutPageSkills />
+          <div>
+            <h1 className='uppercase font-bold mb-5'>IT Skills</h1>
+            <div className='flex gap-5 items-center flex-wrap'>
+              {itskills.map(it => <ItSkills it={it} key={it.id} />)}
+            </div>
+          </div>
         </div>
     </div>
   )

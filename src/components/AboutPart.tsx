@@ -11,7 +11,7 @@ export function AboutPart() {
           <div>
             <h1 className='text-2xl font-bold uppercase mb-5'>Développeuse web</h1>
             <p className='mb-5'>Bonjour, je suis Nelli,</p>
-            <p>Après plusieurs années à chercher mon chemin, je l'ai finalement trouvé, j'ai trouvé ma passion - création moderne et responsive pour web. <br/> Actuellement en reconversion professionnelle chez Simplon.co, je suis à la recherche d’un stage de deux mois. <br/> Bien qu'il me reste encore beaucoup à apprendre, je suis convaincue que mon esprit d'initiative, ma motivation et ma bonne humeur ensemble avec mes compétences acquises peuvent produire de très bons résultats.
+            <p>Après plusieurs années à chercher et à essayer, j'ai enfin trouvé ma voie, j'ai trouvé ma passion - développement web moderne, responsive et fonctionnel. <br/> Actuellement en reconversion professionnelle chez Simplon.co, je suis à la recherche d’un stage de deux mois. <br/> Bien qu'il me reste encore beaucoup à apprendre, je suis convaincue que mon esprit d'initiative, ma motivation et ma bonne humeur ensemble avec mes compétences acquises peuvent produire de très bons résultats.
             </p>
           </div>
           <div>

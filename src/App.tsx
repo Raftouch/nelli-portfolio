@@ -32,7 +32,7 @@ function App() {
         {modal && <Modal onClose={close}>
           <Resume />
         </Modal>}
-        <div className='fixed bottom-1/4 right-4 flex flex-col items-end space-y-5 '>
+        <div className='fixed bottom-1/4 right-4 flex flex-col items-end space-y-5'>
           <button onClick={open}>
             <img className={button.join('')} src='../images/exp.png' alt='experience'/>
           </button>

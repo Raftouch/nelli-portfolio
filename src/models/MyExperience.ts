@@ -1,5 +1,5 @@
 export interface MyExperience {
-    id?: number
+    id: number
     name: string
     occupation: string
     period: string

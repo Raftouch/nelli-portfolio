@@ -1,3 +1,6 @@
 - [x] install tailwind
-- [x] add components
-- [ ]
+- [x] create components
+- [x] create models
+- [x] add data & images
+- [x] create cv modal
+- [x] use context

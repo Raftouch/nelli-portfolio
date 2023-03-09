@@ -8,8 +8,8 @@ interface ItSkillsProps {
 export function ItSkills({it}: ItSkillsProps) {
   return (
     <div className='group'>
-      <p className='absolute -translate-x-0 translate-y-[-100%] bg-black/20 text-white rounded px-1 cursor-pointer text-sm hidden group-hover:block'>{it.title}</p>
-      <img className='relative' src={it.url} alt={it.title} />
+      <p className='absolute -translate-x-0 translate-y-[-100%] bg-black/20 text-white rounded px-1 cursor-auto text-sm hidden group-hover:block'>{it.title}</p>
+      <img className='relative w-12 flex items-center' src={it.url} alt={it.title} />
     </div>
   )
 }

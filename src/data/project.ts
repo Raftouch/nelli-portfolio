@@ -10,10 +10,10 @@ export const projects: MyProject[] = [
     },
     {
         id: 2,
-        title: 'Huddle landing page',
-        image: '../images/landingPage.png',
-        url: 'https://github.com/Raftouch/huddle-landing-page',
-        description: 'CSS - HTML'
+        title: 'Shopping cart',
+        image: '../images/shoppingCart.png',
+        url: 'https://github.com/Raftouch/shopping-cart',
+        description: 'Vite - React - TypeScript - Bootstrap - HTML'
     },
     {
         id: 3,
@@ -41,7 +41,7 @@ export const projects: MyProject[] = [
         title: 'Fashion store',
         image: '../images/fashionStore.png',
         url: 'https://github.com/Raftouch/fashion-store-app',
-        description: 'React - TypeScript - JavaScript - API - Tailwind - CSS - HTML'
+        description: 'React - TypeScript - JavaScript - API - Tailwind - HTML'
     },
     {
         id: 7,

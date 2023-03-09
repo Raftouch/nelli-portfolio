@@ -1,5 +1,5 @@
 export interface MyProject {
-    id?: number
+    id: number
     title: string
     image: string
     url: string

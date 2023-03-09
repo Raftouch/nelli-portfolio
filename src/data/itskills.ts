@@ -1,6 +1,5 @@
 import { MySkills } from "../models/MySkills"
 
-
 export const itskills: MySkills[] = [
     {
         id: 1,

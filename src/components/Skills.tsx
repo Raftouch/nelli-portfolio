@@ -10,7 +10,7 @@ import { itskills } from '../data/itskills'
 
 export function Skills() {
     const heading = ['mb-3 mt-5 ml-5 font-bold uppercase justify-items-center']
-    const skill = ['flex flex-col flex-wrap justify-center gap-3 m-5 pl-2']
+    const skill = ['flex flex-col gap-4 m-5 pl-2']
 
   return (
     <div className='flex flex-col'>
@@ -28,7 +28,6 @@ export function Skills() {
                 {softskills.map(soft => <SoftSkills soft={soft} key={soft.id}/>)}
             </div>
         </div>
-
         <div>
             <h1 className={heading.join('')}>Langues</h1>
             <div className='flex w-[150px]'>

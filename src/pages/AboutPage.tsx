@@ -4,7 +4,7 @@ import { ProjectPart } from '../components/ProjectPart'
 
 export function AboutPage() {
     return (
-        <div className='h-full'>
+        <div className='h-full font-serif'>
             <AboutPart />
             <ProjectPart />
         </div>

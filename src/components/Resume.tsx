@@ -1,8 +1,8 @@
 import React from 'react'
 import { Experience } from './Experience'
 import cvpic from '../images/cvpic.png'
-import { CvContacts } from './CvContacts'
 import { Skills } from './Skills'
+import { Contact } from './Contact'
 
 export function Resume() {
   return (
@@ -17,7 +17,7 @@ export function Resume() {
         </div>
         <div className='flex flex-wrap mt-3'>
             <div className='w-[250px]'>
-                <CvContacts />
+               <Contact />
                 <Skills />
             </div>
             <div>

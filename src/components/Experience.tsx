@@ -6,7 +6,7 @@ import { jobs } from '../data/work'
 
 export function Experience() {
     const heading = ['mb-3 mt-5 ml-5 font-bold uppercase text-md justify-items-center']
-    const experience = ['flex flex-col flex-wrap justify-center m-5']
+    const experience = ['flex flex-col m-5']
 
   return (
     <div className='flex flex-col'>

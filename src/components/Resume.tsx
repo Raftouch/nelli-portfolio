@@ -1,6 +1,5 @@
 import React from 'react'
 import { Experience } from './Experience'
-import cvpic from '../images/cvpic.png'
 import { Skills } from './Skills'
 import { Contact } from './Contact'
 

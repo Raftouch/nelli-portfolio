@@ -23,6 +23,6 @@ export const languages: MySkills[] = [
     },
     {
         id: 6,
-        title: 'Turque' 
+        title: 'Coréen' 
     }
 ]

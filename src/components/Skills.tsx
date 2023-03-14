@@ -9,8 +9,8 @@ import { ItSkills } from './ItSkills'
 import { itskills } from '../data/itskills'
 
 export function Skills() {
-    const heading = ['mb-3 mt-5 ml-5 font-bold uppercase justify-items-center']
-    const skill = ['flex flex-col gap-4 m-5 pl-2']
+    const heading = ['mb-3 mt-5 ml-8 font-bold uppercase justify-items-center']
+    const skill = ['flex flex-col gap-4 m-5 pl-4']
 
   return (
     <div className='flex flex-col'>

@@ -5,8 +5,8 @@ import { ItSkills } from './ItSkills'
 
 export function AboutPart() {
   return (
-    <div className='pt-48 flex items-center justify-center flex-wrap'>
-        <img className='max-w-[300px] rounded-full border-2 border-black mb-10 mr-20 ml-20' src={nellidev1} alt={nellidev1}/>
+    <div className='pt-44 flex items-center justify-center flex-wrap'>
+        <img className='max-w-[300px] rounded border-2 border-black mb-10 mr-20 ml-20' src={nellidev1} alt={nellidev1}/>
         <div className='max-w-[550px] flex flex-col gap-5 ml-20 mr-20'>
           <div>
             <h1 className='text-2xl font-bold uppercase mb-5'>Développeuse web</h1>

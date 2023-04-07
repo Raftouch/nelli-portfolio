@@ -1,25 +1,25 @@
 import { createContext, useState } from "react";
 
 interface MyPortfolioContext {
-    modal: boolean
-    open: () => void
-    close: () => void
+  modal: boolean;
+  open: () => void;
+  close: () => void;
 }
 
 export const PortfolioContext = createContext<MyPortfolioContext>({
-    modal: false,
-    open: () => {},
-    close: () => {}
-})
+  modal: false,
+  open: () => {},
+  close: () => {},
+});
 
-export const ModalState = ({children}: {children: React.ReactNode}) => {
-    const [modal, setModal] = useState(false)
-    const open = () => setModal(true)
-    const close = () => setModal(false)
+export const ModalState = ({ children }: { children: React.ReactNode }) => {
+  const [modal, setModal] = useState(false);
+  const open = () => setModal(true);
+  const close = () => setModal(false);
 
-    return (
-        <PortfolioContext.Provider value={{modal, open, close}}>
-            {children}
-        </PortfolioContext.Provider>
-    )
-}
+  return (
+    <PortfolioContext.Provider value={{ modal, open, close }}>
+      {children}
+    </PortfolioContext.Provider>
+  );
+};

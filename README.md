@@ -5,3 +5,4 @@
 - [x] create cv modal
 - [x] use context
 - [x] clean code & final check
+- [x] format with prettier

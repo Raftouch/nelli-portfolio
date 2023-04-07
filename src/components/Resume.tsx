@@ -5,7 +5,7 @@ import { Contact } from "./Contact";
 
 export function Resume() {
   return (
-    <div className="w-full h-full mt-14 bg-black/5 pl-5">
+    <div className="w-full h-full bg-black/5 pl-5">
       <div className="max-w-[450px] flex flex-col gap-2 p-8">
         <p className="text-sm">Nelli Timorshina</p>
         <h1 className="uppercase font-bold">Développeuse web</h1>

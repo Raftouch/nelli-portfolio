@@ -7,7 +7,7 @@ export const jobs: MyExperience[] = [
     occupation: "Service Client",
     period: "11/2021 – 01/2022",
     description:
-      "Renseignements sur les produits, vente en ligne, service après-vente, analyse des expériences des clients",
+      "Service après-vente, analyse des expériences des clients",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const jobs: MyExperience[] = [
     occupation: "Freelance",
     period: "09/2019 – 09/2021",
     description:
-      "Études de marché, participation aux salons professionnels au Parc des Expositions Villepinte, traduction",
+      "Études de marché, participation aux salons professionnels, traduction",
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ export const jobs: MyExperience[] = [
     occupation: "Chargée des comptes clients",
     period: "05/2016 – 04/2019",
     description:
-      "Monitoring et pilotage de l’expérience client, optimisation de la satisfaction client, onboarding des nouveaux clients, organisation et réalisation des formations sur le logiciel Orbit pour la recherche et l’analyse de brevets",
+      "Monitoring et pilotage de l’expérience client, onboarding des nouveaux clients, organisation des formations sur le logiciel Orbit",
   },
   {
     id: 4,
@@ -31,6 +31,6 @@ export const jobs: MyExperience[] = [
     occupation: "Chargée d'affaires et marketing",
     period: "02/2014 – 01/2016",
     description:
-      "Assistance à l’implantation du bureau commercial en Allemagne, création du site web en WordPress, mise à jour des espaces d’animation du site",
+      "Création du site web en WordPress, mise à jour des espaces d’animation du site, prospection",
   },
 ];

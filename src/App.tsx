@@ -25,11 +25,13 @@ function App() {
 
   return (
     <div style={themeStyles}>
-      <Navigation />
-      <Routes>
-        <Route path="/" element={<AboutPage />} />
-        <Route path="/projects" element={<ProjectPart />} />
-      </Routes>
+      <div className={modal ? "position: fixed" : "position: static"}>
+        <Navigation />
+        <Routes>
+          <Route path="/" element={<AboutPage />} />
+          <Route path="/projects" element={<ProjectPart />} />
+        </Routes>
+      </div>
       <ButtonsLeft />
       {modal && (
         <Modal onClose={close}>

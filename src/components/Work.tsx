@@ -8,10 +8,10 @@ interface WorkProps {
 export function Work({ job }: WorkProps) {
   return (
     <div className="border py-2 px-4 rounded flex flex-col mb-2 w-[350px]">
-      <p className="font-bold">{job.name}</p>
-      <p>{job.occupation}</p>
-      <p className="text-sm">{job.period}</p>
-      <p className="text-sm">{job.description}</p>
+      <p>{job.name}</p>
+      <p className="font-bold">{job.occupation}</p>
+      <p>{job.period}</p>
+      <p className="italic">{job.description}</p>
     </div>
   );
 }

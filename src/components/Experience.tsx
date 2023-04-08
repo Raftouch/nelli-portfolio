@@ -8,7 +8,7 @@ export function Experience() {
   const heading = [
     "mb-3 mt-5 ml-8 font-bold uppercase text-md justify-items-center",
   ];
-  const experience = ["flex flex-col ml-5 mr-5"];
+  const experience = ["flex flex-col ml-5 mr-5 text-sm"];
 
   return (
     <div className="flex flex-col">

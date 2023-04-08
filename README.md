@@ -4,5 +4,6 @@
 - [x] add data & images
 - [x] create cv modal
 - [x] use context
-- [x] clean code & final check
+- [x] clean code
 - [x] format with prettier
+- [x] final check

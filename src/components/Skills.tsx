@@ -13,7 +13,7 @@ export function Skills() {
   const skill = ["flex flex-col gap-4 m-5 pl-4 text-sm"];
 
   return (
-    <div className="flex flex-wrap">
+    <div className="flex flex-col">
       <div>
         <h1 className={heading.join("")}>IT Skills</h1>
         <div className={skill.join("")}>
@@ -34,19 +34,10 @@ export function Skills() {
       </div>
       <div>
         <h1 className={heading.join("")}>Langues</h1>
-        <div className="flex w-[150px]">
-          <div className={skill.join("")}>
-            {languages.map((language) => (
-              <Languages language={language} key={language.id} />
-            ))}
-          </div>
-          {/* <div className={skill.join("text-green-600")}>
-            <p>&#10003;&#10003;&#10003;&#10003;</p>
-            <p>&#10003;&#10003;&#10003;&#10003;</p>
-            <p>&#10003;&#10003;&#10003;&#10003;</p>
-            <p>&#10003;&#10003;&#10003;&#10003;&#10003;</p>
-            <p>&#10003;&#10003;</p>
-          </div> */}
+        <div className={skill.join("")}>
+          {languages.map((language) => (
+            <Languages language={language} key={language.id} />
+          ))}
         </div>
       </div>
       <div>

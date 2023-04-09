@@ -10,7 +10,7 @@ import ButtonCV from "./components/ButtonCV";
 import { PortfolioContext } from "./context/ModalContext";
 
 function App() {
-  const { modal, close } = useContext(PortfolioContext);
+  const { modal } = useContext(PortfolioContext);
   const [dark, setDark] = useState(false);
   const button = [
     "rounded-full border-white bg-white border-2 w-[50px] hover:bg-slate-500",
@@ -34,7 +34,7 @@ function App() {
       </div>
       <ButtonsLeft />
       {modal && (
-        <Modal onClose={close}>
+        <Modal>
           <Resume />
         </Modal>
       )}

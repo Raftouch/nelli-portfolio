@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Experience } from "./Experience";
 import { Skills } from "./Skills";
 import { Contact } from "./Contact";
+import { PortfolioContext } from "../context/ModalContext";
 
 export function Resume() {
+  const { close } = useContext(PortfolioContext);
+
   return (
     <div className="bg-black/5">
       <div className="max-w-[450px] flex flex-col gap-2 p-8">
@@ -14,6 +17,12 @@ export function Resume() {
           à la recherche d’un stage de deux mois
         </p>
       </div>
+      <button
+        className="absolute right-10 top-10 px-4 py-2 font-bold hover:text-red-900"
+        onClick={close}
+      >
+        X
+      </button>
       <div className="flex flex-wrap">
         <div className="w-[250px]">
           <Contact />

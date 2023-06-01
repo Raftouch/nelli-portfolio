@@ -14,7 +14,7 @@ export function Resume() {
         <h1 className="uppercase font-bold">Développeuse web</h1>
         <p className="text-sm">
           Actuellement en reconversion professionnelle chez Simplon.co, je suis
-          à la recherche d’un stage de deux mois
+          à la recherche d’une alternance pour une période de 18 mois
         </p>
       </div>
       <button

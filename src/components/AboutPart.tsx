@@ -19,9 +19,9 @@ export function AboutPart() {
           <p className="mb-5">Bonjour, je suis Nelli,</p>
           <p>
             Après plusieurs années à chercher et à essayer, j'ai enfin trouvé ma
-            voie, j'ai trouvé ma passion - développement web moderne, responsive
-            et fonctionnel. <br /> Actuellement en reconversion professionnelle
-            chez Simplon.co, je suis à la recherche d’un stage de deux mois.{" "}
+            passion - développement web moderne, responsive et fonctionnel.{" "}
+            <br /> Actuellement en reconversion professionnelle chez Simplon.co,
+            je suis à la recherche d’une alternance pour une période de 18 mois.{" "}
             <br /> Bien qu'il me reste encore beaucoup à apprendre, je suis
             convaincue que mon esprit d'initiative, ma motivation et ma bonne
             humeur ensemble avec mes compétences acquises peuvent produire de

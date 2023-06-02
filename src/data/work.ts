@@ -15,7 +15,7 @@ export const jobs: MyExperience[] = [
     occupation: "Freelance",
     period: "09/2019 – 09/2021",
     description:
-      "Études de marché, participation aux salons professionnels, traduction",
+      "Études de marché, participation aux salons professionnels",
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ export const jobs: MyExperience[] = [
     occupation: "Chargée des comptes clients",
     period: "05/2016 – 04/2019",
     description:
-      "Monitoring et pilotage de l’expérience client, onboarding des nouveaux clients, organisation des formations sur le logiciel Orbit",
+      "Monitoring et pilotage de l’expérience client, formation sur le logiciel Orbit",
   },
   {
     id: 4,
@@ -31,6 +31,6 @@ export const jobs: MyExperience[] = [
     occupation: "Chargée d'affaires et marketing",
     period: "02/2014 – 01/2016",
     description:
-      "Création du site web en WordPress, mise à jour des espaces d’animation du site, prospection",
+      "Création du site web en WordPress, mise à jour des espaces d’animation du site",
   },
 ];

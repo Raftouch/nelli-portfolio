@@ -9,7 +9,7 @@ export function Resume() {
 
   return (
     <div className="bg-black/5">
-      <div className="max-w-[450px] flex flex-col gap-2 p-8">
+      <div className="w-[400px] flex flex-col gap-2 p-8">
         <p className="text-sm">Nelli Timorshina</p>
         <h1 className="uppercase font-bold">Développeuse web</h1>
         <p className="text-sm">

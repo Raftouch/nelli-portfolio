@@ -1,5 +1,5 @@
 import React, { useContext, useMemo } from 'react'
-import { PortfolioContext } from '../context/ModalContext'
+import { PortfolioContext } from '../context/PortfolioContext'
 
 interface StyleProps {
   children: React.ReactNode

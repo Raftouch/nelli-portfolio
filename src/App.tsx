@@ -6,7 +6,7 @@ import { ButtonsLeft } from './components/ButtonsLeft'
 import { AboutPage } from './pages/AboutPage'
 import { ProjectPart } from './components/ProjectPart'
 import { Resume } from './components/Resume'
-import { PortfolioContext } from './context/ModalContext'
+import { PortfolioContext } from './context/PortfolioContext'
 import ButtonsRight from './components/ButtonsRight'
 import Style from './components/Style'
 

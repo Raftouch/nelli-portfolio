@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { PortfolioContext } from '../context/ModalContext'
+import { PortfolioContext } from '../context/PortfolioContext'
 
 export default function ButtonsRight() {
   const { open, style } = useContext(PortfolioContext)

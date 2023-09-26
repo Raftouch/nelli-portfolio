@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 import Mailto from 'react-mailto-link'
 
 export function ButtonsLeft() {
-  const contact = 'w-[100px] bg-white rounded-full hover:bg-slate-500'
+  const contact = 'w-[100px] bg-white rounded-full border-white border-2 hover:bg-slate-500'
 
   return (
     <div className="fixed top-1/3 left-2 flex flex-col space-y-5 w-[50px]">

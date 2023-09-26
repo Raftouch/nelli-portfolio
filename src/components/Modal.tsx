@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { PortfolioContext } from '../context/ModalContext'
+import { PortfolioContext } from '../context/PortfolioContext'
 
 interface ModalProps {
   children: React.ReactNode

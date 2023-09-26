@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { Experience } from './Experience'
 import { Skills } from './Skills'
 import { Contact } from './Contact'
-import { PortfolioContext } from '../context/ModalContext'
+import { PortfolioContext } from '../context/PortfolioContext'
 
 export function Resume() {
   const { close } = useContext(PortfolioContext)

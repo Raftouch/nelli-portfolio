@@ -1,11 +1,11 @@
-import React, { useContext } from "react";
-import { Experience } from "./Experience";
-import { Skills } from "./Skills";
-import { Contact } from "./Contact";
-import { PortfolioContext } from "../context/ModalContext";
+import React, { useContext } from 'react'
+import { Experience } from './Experience'
+import { Skills } from './Skills'
+import { Contact } from './Contact'
+import { PortfolioContext } from '../context/ModalContext'
 
 export function Resume() {
-  const { close } = useContext(PortfolioContext);
+  const { close } = useContext(PortfolioContext)
 
   return (
     <div className="bg-black/5">
@@ -33,5 +33,5 @@ export function Resume() {
         </div>
       </div>
     </div>
-  );
+  )
 }

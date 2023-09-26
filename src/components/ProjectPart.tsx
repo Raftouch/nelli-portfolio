@@ -1,6 +1,6 @@
-import React from "react";
-import { Projects } from "./Projects";
-import { projects } from "../data/project";
+import React from 'react'
+import { Projects } from './Projects'
+import { projects } from '../data/project'
 
 export function ProjectPart() {
   return (
@@ -12,5 +12,5 @@ export function ProjectPart() {
         ))}
       </div>
     </>
-  );
+  )
 }

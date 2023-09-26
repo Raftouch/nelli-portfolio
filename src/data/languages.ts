@@ -1,28 +1,28 @@
-import { MySkills } from "../models/MySkills";
+import { MySkills } from '../models/MySkills'
 
 export const languages: MySkills[] = [
   {
     id: 1,
-    title: "Français",
+    title: 'Français',
   },
   {
     id: 2,
-    title: "Anglais",
+    title: 'Anglais',
   },
   {
     id: 3,
-    title: "Allemand",
+    title: 'Allemand',
   },
   {
     id: 4,
-    title: "Russe",
+    title: 'Russe',
   },
   {
     id: 5,
-    title: "Espagnol",
+    title: 'Espagnol',
   },
   {
     id: 6,
-    title: "Coréen",
+    title: 'Coréen',
   },
-];
+]

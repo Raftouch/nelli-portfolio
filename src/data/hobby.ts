@@ -1,24 +1,24 @@
-import { MySkills } from "../models/MySkills";
+import { MySkills } from '../models/MySkills'
 
 export const hobbies: MySkills[] = [
   {
     id: 1,
-    title: "Langues étrangères",
+    title: 'Langues étrangères',
   },
   {
     id: 2,
-    title: "Mon chien",
+    title: 'Mon chien',
   },
   {
     id: 3,
-    title: "Yoga",
+    title: 'Yoga',
   },
   {
     id: 5,
-    title: "Voyages",
+    title: 'Voyages',
   },
   {
     id: 6,
-    title: "Théâtre",
+    title: 'Théâtre',
   },
-];
+]

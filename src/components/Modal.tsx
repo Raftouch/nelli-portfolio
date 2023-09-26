@@ -1,12 +1,12 @@
-import React, { useContext } from "react";
-import { PortfolioContext } from "../context/ModalContext";
+import React, { useContext } from 'react'
+import { PortfolioContext } from '../context/ModalContext'
 
 interface ModalProps {
-  children: React.ReactNode;
+  children: React.ReactNode
 }
 
 export function Modal({ children }: ModalProps) {
-  const { close } = useContext(PortfolioContext);
+  const { close } = useContext(PortfolioContext)
 
   return (
     <>
@@ -18,5 +18,5 @@ export function Modal({ children }: ModalProps) {
         {children}
       </div>
     </>
-  );
+  )
 }

@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 export function Contact() {
   return (
@@ -6,5 +6,5 @@ export function Contact() {
       <p>&#9997; ntimorshina@gmail.com</p>
       <p>&#10083; Paris, France</p>
     </div>
-  );
+  )
 }

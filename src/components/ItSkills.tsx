@@ -1,8 +1,8 @@
-import React from "react";
-import { MySkills } from "../models/MySkills";
+import React from 'react'
+import { MySkills } from '../models/MySkills'
 
 interface ItSkillsProps {
-  it: MySkills;
+  it: MySkills
 }
 
 export function ItSkills({ it }: ItSkillsProps) {
@@ -13,5 +13,5 @@ export function ItSkills({ it }: ItSkillsProps) {
       </p>
       <img className="h-[28px] relative" src={it.url} alt={it.title} />
     </div>
-  );
+  )
 }

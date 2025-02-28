@@ -1,7 +1,7 @@
-import React from 'react'
-import { itskills } from '../data/itskills'
-import nellidev1 from '../images/nellidev1.png'
-import { ItSkills } from './ItSkills'
+import React from "react";
+import { itskills } from "../data/itskills";
+import nellidev1 from "../images/nellidev1.png";
+import { ItSkills } from "./ItSkills";
 
 export function AboutPart() {
   return (
@@ -14,18 +14,16 @@ export function AboutPart() {
       <div className="max-w-[550px] flex flex-col gap-5 ml-20 mr-20">
         <div>
           <h1 className="text-3xl font-bold uppercase mb-5">
-            Développeuse web
+            Data Engineer en alternance
           </h1>
           <p className="mb-5">Bonjour, je suis Nelli,</p>
           <p>
-            Après plusieurs années à chercher et à essayer, j'ai enfin trouvé ma
-            passion - développement web moderne, responsive et fonctionnel.{' '}
-            <br /> Actuellement en reconversion professionnelle chez Simplon.co,
-            je suis à la recherche d’une alternance pour une période de 18 mois.{' '}
-            <br /> Bien qu'il me reste encore beaucoup à apprendre, je suis
-            convaincue que mon esprit d'initiative, ma motivation et ma bonne
-            humeur ensemble avec mes compétences acquises peuvent produire de
-            très bons résultats.
+            Passionnée par la gestion et l’analyse des données, je suis
+            actuellement à la recherche d’une alternance en tant que Data
+            Engineer. Forte d’une expérience en développement fullstack et de
+            compétences en gestion des données et des API, je souhaite
+            approfondir mes connaissances dans le domaine de la data pour
+            contribuer à des projets innovants.
           </p>
         </div>
         <div>
@@ -38,5 +36,5 @@ export function AboutPart() {
         </div>
       </div>
     </div>
-  )
+  );
 }

@@ -1,10 +1,10 @@
-import React, { useContext } from 'react'
-import { PortfolioContext } from '../context/PortfolioContext'
+import React, { useContext } from "react";
+import { PortfolioContext } from "../context/PortfolioContext";
 
 export default function ButtonsRight() {
-  const { open, style } = useContext(PortfolioContext)
+  const { open, style } = useContext(PortfolioContext);
   const button =
-    'rounded-full border-white bg-white border-2 w-[50px] hover:bg-slate-500'
+    "rounded-full border-white bg-[#f0f0f0] border-2 w-[50px] hover:bg-slate-500";
 
   return (
     <div className="fixed top-1/3 right-2 flex flex-col items-end space-y-5">
@@ -15,5 +15,5 @@ export default function ButtonsRight() {
         <img src="../images/lightDark.png" alt="light-dark icon" />
       </button>
     </div>
-  )
+  );
 }

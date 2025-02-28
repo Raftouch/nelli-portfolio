@@ -7,7 +7,7 @@ export function AboutPart() {
   return (
     <div className="pt-44 flex items-center justify-center flex-wrap">
       <img
-        className="max-w-[300px] rounded border-2 border-black mt-10 mb-10 mr-20 ml-20"
+        className="max-w-[300px] rounded mt-10 mb-10 mr-20 ml-20"
         src={nellidev1}
         alt={nellidev1}
       />

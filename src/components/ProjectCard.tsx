@@ -1,14 +1,14 @@
-import React from 'react'
-import { MyProject } from '../models/MyProject'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { MyProject } from "../models/MyProject";
+import { Link } from "react-router-dom";
 
 interface ProjectProps {
-  project: MyProject
+  project: MyProject;
 }
 
-export function Projects({ project }: ProjectProps) {
+export function ProjectCard({ project }: ProjectProps) {
   return (
-    <div className="group p-2 rounded flex flex-col min-w-[350px] items-center drop-shadow-2xl">
+    <div className="group p-2 rounded flex flex-col min-w-[350px] min-h-[250px] items-center drop-shadow-2xl">
       <Link to={project.url} target="_blank">
         <img
           className="relative w-[350px] h-[250px] rounded"
@@ -25,5 +25,5 @@ export function Projects({ project }: ProjectProps) {
         </div>
       </Link>
     </div>
-  )
+  );
 }

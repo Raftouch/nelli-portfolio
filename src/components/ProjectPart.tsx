@@ -1,16 +1,18 @@
-import React from 'react'
-import { Projects } from './Projects'
-import { projects } from '../data/project'
+import React from "react";
+import { projects } from "../data/project";
+import { ProjectCard } from "./ProjectCard";
 
 export function ProjectPart() {
   return (
     <>
-      <h1 className="text-center pt-48 uppercase text-3xl">Quelques projets</h1>
-      <div className="h-full grid grid-cols-1 gap-5 lg:grid-cols-2 xl:grid-cols-3 justify-items-center p-20">
+      <h1 className="text-center pt-48 text-3xl font-bold uppercase">
+        Projets réalisés et en cours
+      </h1>
+      <div className="min-h-full grid grid-cols-1 gap-5 lg:grid-cols-2 xl:grid-cols-3 justify-items-center p-20">
         {projects.map((project) => (
-          <Projects project={project} key={project.id} />
+          <ProjectCard project={project} key={project.id} />
         ))}
       </div>
     </>
-  )
+  );
 }

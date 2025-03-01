@@ -10,7 +10,7 @@ export const projects: MyProject[] = [
   },
   {
     id: 2,
-    title: "Redeisgn parcours client - Page de recherche",
+    title: "Redeisgn parcours client - Page de résultats de recherche",
     image: "../images/wojo-searchpage.png",
     url: "https://www.wojo.com/fr-FR/search/centers",
     description:
@@ -18,7 +18,7 @@ export const projects: MyProject[] = [
   },
   {
     id: 3,
-    title: "Redeisgn parcours client - Details du centre",
+    title: "Redeisgn parcours client - Page de détails du centre",
     image: "../images/wojo-centerdetailspage.png",
     url: "https://sparkly-llama-b02512.netlify.app/",
     description:

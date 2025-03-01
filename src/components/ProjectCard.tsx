@@ -15,8 +15,8 @@ export function ProjectCard({ project }: ProjectProps) {
           src={project.image}
           alt={project.image}
         />
-        <div className="absolute -translate-x-0 translate-y-[-100%] bg-black/80 text-white cursor-pointer w-[350px] h-[250px] rounded hidden group-hover:block">
-          <div className="flex flex-col gap-5 items-center pt-20 pl-10 pr-10">
+        <div className="absolute inset-2 bg-black/80 text-[#f0f0f0] cursor-pointer w-[350px] h-[250px] rounded hidden group-hover:flex items-center justify-center">
+          <div className="flex flex-col gap-5 items-center pl-10 pr-10">
             <h1 className="text-lg font-bold uppercase text-center">
               {project.title}
             </h1>

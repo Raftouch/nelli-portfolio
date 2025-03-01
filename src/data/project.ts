@@ -20,7 +20,7 @@ export const projects: MyProject[] = [
     id: 3,
     title: "Redeisgn parcours client - Page de détails du centre",
     image: "../images/wojo-centerdetailspage.png",
-    url: "https://sparkly-llama-b02512.netlify.app/",
+    url: "https://www.wojo.com/fr-FR/espaces-de-travail/wojo-paris-13e-bnf",
     description:
       "NextJS - NestJS - TypeScript - API - AWS OpenSearch - PostgreSQL",
   },

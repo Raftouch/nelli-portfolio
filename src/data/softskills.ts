@@ -1,16 +1,24 @@
-import { MySkills } from '../models/MySkills'
+import { MySkills } from "../models/MySkills";
 
 export const softskills: MySkills[] = [
   {
     id: 1,
-    title: 'Adaptabilité',
+    title: "Adaptabilité",
   },
   {
     id: 2,
-    title: 'Respect',
+    title: "Respect",
   },
   {
     id: 3,
-    title: 'Courage',
+    title: "Courage",
   },
-]
+  {
+    id: 4,
+    title: "Travail en équipe",
+  },
+  {
+    id: 5,
+    title: "Autonomie",
+  },
+];

@@ -26,23 +26,9 @@ export const projects: MyProject[] = [
   },
   {
     id: 4,
-    title: "Annuaire",
-    image: "../images/notesApp.png",
-    url: "https://github.com/Raftouch/notes-app-mern",
-    description: "NextJS - NestJS - TypeScript - API - PostgreSQL - SendGrid",
+    title: "Analyse des ventes",
+    image: "../images/architecture.png",
+    url: "https://github.com/Raftouch/sales_analysis",
+    description: "Python - Merise - SQLite - Docker",
   },
-  // {
-  //   id: 5,
-  //   title: "Restaurants App",
-  //   image: "../images/restauApp.png",
-  //   url: "https://fancy-bunny-d892d3.netlify.app/",
-  //   description: "Vite - React - TypeScript - Tailwind CSS",
-  // },
-  // {
-  //   id: 6,
-  //   title: "Mascots App",
-  //   image: "../images/mascotsApp.png",
-  //   url: "https://github.com/Raftouch/mascots-app-ejs",
-  //   description: "Node.js - Express.js - EJS - MongoDB - Multer - Tailwind CSS",
-  // },
 ];

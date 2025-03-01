@@ -1,8 +1,8 @@
-import React from 'react'
-import { MyExperience } from '../models/MyExperience'
+import React from "react";
+import { MyExperience } from "../models/MyExperience";
 
 interface EducationProps {
-  study: MyExperience
+  study: MyExperience;
 }
 
 export function Education({ study }: EducationProps) {
@@ -11,7 +11,7 @@ export function Education({ study }: EducationProps) {
       <p>{study.name}</p>
       <p className="font-bold">{study.occupation}</p>
       <p>{study.period}</p>
-      <p className="italic">{study.description}</p>
+      <p className="text-xs">{study.description}</p>
     </div>
-  )
+  );
 }

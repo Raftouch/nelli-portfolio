@@ -1,23 +1,16 @@
-import React from 'react'
-import { Education } from './Education'
-import { Work } from './Work'
-import { studies } from '../data/study'
-import { jobs } from '../data/work'
+import React from "react";
+import { Education } from "./Education";
+import { Work } from "./Work";
+import { studies } from "../data/study";
+import { jobs } from "../data/work";
 
 export function Experience() {
-  const heading = 'mb-3 mt-5 ml-8 font-bold uppercase text-md justify-items-center'
-  const experience = 'flex flex-col ml-5 mr-5 text-sm'
+  const heading =
+    "mb-3 mt-5 ml-8 font-bold uppercase text-md justify-items-center";
+  const experience = "flex flex-col ml-5 mr-5 text-sm";
 
   return (
     <div className="flex flex-col">
-      <div>
-        <h1 className={heading}>Études</h1>
-        <div className={experience}>
-          {studies.map((study) => (
-            <Education study={study} key={study.id} />
-          ))}
-        </div>
-      </div>
       <div>
         <h1 className={heading}>Expériences professionnelles</h1>
         <div className={experience}>
@@ -26,6 +19,14 @@ export function Experience() {
           ))}
         </div>
       </div>
+      <div>
+        <h1 className={heading}>Études</h1>
+        <div className={experience}>
+          {studies.map((study) => (
+            <Education study={study} key={study.id} />
+          ))}
+        </div>
+      </div>
     </div>
-  )
+  );
 }

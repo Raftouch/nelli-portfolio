@@ -1,8 +1,8 @@
-import React from 'react'
-import { MyExperience } from '../models/MyExperience'
+import React from "react";
+import { MyExperience } from "../models/MyExperience";
 
 interface WorkProps {
-  job: MyExperience
+  job: MyExperience;
 }
 
 export function Work({ job }: WorkProps) {
@@ -13,7 +13,7 @@ export function Work({ job }: WorkProps) {
         <p className="font-bold">{job.occupation}</p>
       </div>
       <p>{job.period}</p>
-      <p className="italic">{job.description}</p>
+      <p className="text-xs">{job.description}</p>
     </div>
-  )
+  );
 }

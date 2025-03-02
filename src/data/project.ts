@@ -26,9 +26,9 @@ export const projects: MyProject[] = [
   },
   {
     id: 4,
-    title: "Analyse des ventes",
+    title: "Création d'une base de données",
     image: "../images/architecture.png",
-    url: "https://github.com/Raftouch/sales_analysis",
-    description: "Python - Merise - SQLite - Docker",
+    url: "https://github.com/Raftouch/client-order-box-relations",
+    description: "Python - Merise - SQLite - Docker - Github Projects",
   },
 ];

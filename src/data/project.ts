@@ -6,7 +6,7 @@ export const projects: MyProject[] = [
     title: "Redesign Homepage",
     image: "../images/wojo-homepage.png",
     url: "https://www.wojo.com/fr-FR",
-    description: "NextJS - TypeScript - Google Search",
+    description: "Next.js - TypeScript - Google Search",
   },
   {
     id: 2,
@@ -14,7 +14,7 @@ export const projects: MyProject[] = [
     image: "../images/wojo-searchpage.png",
     url: "https://www.wojo.com/fr-FR/search/centers",
     description:
-      "NextJS - NestJS - TypeScript - API - AWS OpenSearch - PostgreSQL",
+      "Next.js - NestJS - TypeScript - API - AWS OpenSearch - PostgreSQL",
   },
   {
     id: 3,
@@ -22,13 +22,6 @@ export const projects: MyProject[] = [
     image: "../images/wojo-centerdetailspage.png",
     url: "https://www.wojo.com/fr-FR/espaces-de-travail/wojo-paris-13e-bnf",
     description:
-      "NextJS - NestJS - TypeScript - API - AWS OpenSearch - PostgreSQL",
-  },
-  {
-    id: 4,
-    title: "Création d'une base de données",
-    image: "../images/architecture.png",
-    url: "https://github.com/Raftouch/client-order-box-relations",
-    description: "Python - Merise - SQLite - Docker - Github Projects",
+      "Next.js - NestJS - TypeScript - API - AWS OpenSearch - PostgreSQL",
   },
 ];

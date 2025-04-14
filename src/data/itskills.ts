@@ -43,7 +43,7 @@ export const itskills: MySkills[] = [
   },
   {
     id: 9,
-    title: "NodeJS",
+    title: "Node.js",
     url: "./logos/nodejs.png",
   },
   {
@@ -58,17 +58,32 @@ export const itskills: MySkills[] = [
   },
   {
     id: 11,
-    title: "Tailwind",
+    title: "Tailwind CSS",
     url: "./logos/tailwind.png",
   },
   {
     id: 12,
-    title: "Postgresql",
+    title: "Postgre",
     url: "./logos/postgresql.webp",
   },
   {
     id: 13,
     title: "SQL",
     url: "./logos/sql.png",
+  },
+  {
+    id: 13,
+    title: "NestJS",
+    url: "./logos/NestJS.svg",
+  },
+  {
+    id: 14,
+    title: "Prisma ORM",
+    url: "./logos/prisma.png",
+  },
+  {
+    id: 15,
+    title: "Postman",
+    url: "./logos/postman.svg",
   },
 ];

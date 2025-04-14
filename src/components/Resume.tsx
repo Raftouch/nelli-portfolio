@@ -1,7 +1,6 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { Experience } from "./Experience";
 import { Skills } from "./Skills";
-import { Contact } from "./Contact";
 import { PortfolioContext } from "../context/PortfolioContext";
 
 export function Resume() {
@@ -25,7 +24,6 @@ export function Resume() {
       </button>
       <div className="flex flex-wrap">
         <div className="w-[250px]">
-          <Contact />
           <Skills />
         </div>
         <div>

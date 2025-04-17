@@ -4,14 +4,14 @@ export const studies: MyExperience[] = [
   {
     id: 1,
     name: "Simplon",
-    occupation: "Data Engineer, Bac+5",
-    period: "06/2025 - 03/2027",
+    occupation: "Développeur IA",
+    period: "06/2025 - 12/2026",
     description: "En alternance",
   },
   {
     id: 2,
     name: "Simplon",
-    occupation: "Concepteur Développeur d'Applications, Bac+3/4",
+    occupation: "Concepteur Développeur d'Applications, Bac+3",
     period: "09/2023 - 03/2025",
     description: "En alternance",
   },
@@ -26,9 +26,9 @@ export const studies: MyExperience[] = [
   {
     id: 4,
     name: "ESCE Paris",
-    occupation: "Master 2",
+    occupation: "Master 2 en Finance et Commerce international",
     period: "2013 – 2014",
-    description: "Finance et Commerce international",
+    description: "",
   },
   // {
   //   id: 5,

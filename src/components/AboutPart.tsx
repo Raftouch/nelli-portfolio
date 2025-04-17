@@ -14,16 +14,14 @@ export function AboutPart() {
       <div className="max-w-[550px] flex flex-col gap-5 ml-20 mr-20">
         <div>
           <h1 className="text-3xl font-bold uppercase mb-5">
-            Data Engineer en alternance
+            Developpeuse IA, en alternance
           </h1>
           <p className="mb-5">Bonjour, je suis Nelli,</p>
           <p>
-            Passionnée par la gestion et l’analyse des données, je suis
-            actuellement à la recherche d’une alternance en tant que Data
-            Engineer. Forte d’une expérience en développement fullstack et de
-            compétences en gestion des données et des API, je souhaite
-            approfondir mes connaissances dans le domaine de la data pour
-            contribuer à des projets innovants.
+            Passionnée par l’intelligence artificielle et le machine learning,
+            je vous propose mes compétences en tant que Développeuse Fullstack
+            dans le cadre d’une alternance. Durée de 16 mois à partir de
+            septembre 2025.
           </p>
         </div>
         <div>

@@ -7,21 +7,23 @@ export const jobs: MyExperience[] = [
     occupation: "Concepteur Développeur d'Applications",
     period: "10/2023 – 04/2025",
     description:
-      "Utilisation principale de Next.js et Nest.js pour le développement fullstack, Création et optimisation de requêtes OpenSearch pour garantir une recherche rapide et pertinente",
+      "Refonte front/back du parcours de réservation du client web, Création d’un annuaire digital, Support technique niveau 2 via Zendesk",
   },
   {
     id: 2,
     name: "Moncler",
-    occupation: "Service Client",
+    occupation: "Chargée de clientèle",
     period: "11/2021 – 01/2022",
-    description: "Service après-vente, analyse des expériences des clients",
+    description:
+      " Renseignements sur les produits, vente en ligne, service après-vente",
   },
   {
     id: 3,
-    name: "Nexus Europe",
-    occupation: "Freelance",
+    name: "Nexus Europe GmbH",
+    occupation: "Chargée d’études",
     period: "09/2019 – 09/2021",
-    description: "Études de marché, participation aux salons professionnels",
+    description:
+      " Études de marché, prospection, participation aux salons professionnels",
   },
   {
     id: 4,

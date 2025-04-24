@@ -10,7 +10,7 @@ export function ButtonsLeft() {
     "w-[100px] bg-[#f0f0f0] rounded-full border-white border-2 hover:bg-slate-500";
 
   return (
-    <div className="fixed top-1/3 left-2 flex flex-col space-y-5 w-[50px]">
+    <div className="fixed top-1/3 left-3 flex flex-col space-y-5 w-[40px]">
       <Link to="https://www.linkedin.com/in/nelli-timorshina/" target="_blank">
         <img className={contact} src={linkedinLogo} alt={linkedinLogo} />
       </Link>

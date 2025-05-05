@@ -1,14 +1,21 @@
-import React from "react";
+import React, { useContext } from "react";
 import { MyProject } from "../models/MyProject";
 import { Link } from "react-router-dom";
+import { PortfolioContext } from "../context/PortfolioContext";
 
 interface ProjectProps {
   project: MyProject;
 }
 
 export function ProjectCard({ project }: ProjectProps) {
+  const { dark } = useContext(PortfolioContext);
+
   return (
-    <div className="group p-2 rounded flex flex-col min-w-[350px] min-h-[250px] items-center drop-shadow-2xl">
+    <div
+      className={`${
+        dark ? "border-white" : "border-black"
+      } border group p-2 rounded flex flex-col min-w-[350px] min-h-[250px] items-center drop-shadow-2xl`}
+    >
       <Link to={project.url} target="_blank">
         <img
           className="relative w-[350px] h-[250px] rounded"

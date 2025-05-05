@@ -3,25 +3,25 @@ import { MyProject } from "../models/MyProject";
 export const projects: MyProject[] = [
   {
     id: 1,
-    title: "Redesign Homepage",
+    title: "Redesign Homepage et Parcours Client",
     image: "../images/wojo-homepage.png",
     url: "https://www.wojo.com/fr-FR",
-    description: "Next.js - TypeScript - Google Search",
+    description:
+      "Next.js · NestJS · TypeScript · API · AWS OpenSearch · PostgreSQL",
   },
   {
     id: 2,
-    title: "Redeisgn parcours client - Page de résultats de recherche",
-    image: "../images/wojo-searchpage.png",
-    url: "https://www.wojo.com/fr-FR/search/centers",
+    title: "Rafton - Plateforme de musique",
+    image: "../images/rafton.png",
+    url: "https://github.com/Raftouch/rafton-music-tree",
     description:
-      "Next.js - NestJS - TypeScript - API - AWS OpenSearch - PostgreSQL",
+      "Next.js · NestJS · Express.js · TypeScript · Docker · API · PostgreSQL · CI/CD (GitHub Actions) · Microservices · Conception de bases de données (MCD, MLD, MPD)",
   },
   {
     id: 3,
-    title: "Redeisgn parcours client - Page de détails du centre",
-    image: "../images/wojo-centerdetailspage.png",
-    url: "https://www.wojo.com/fr-FR/espaces-de-travail/wojo-paris-13e-bnf",
-    description:
-      "Next.js - NestJS - TypeScript - API - AWS OpenSearch - PostgreSQL",
+    title: "Crypto Overview Today",
+    image: "../images/crypto-today.png",
+    url: "https://github.com/Raftouch/crypto-overview",
+    description: "Python · FastAPI · API · Git · React · Typescript",
   },
 ];

@@ -10,8 +10,8 @@ export default function Style({ children }: StyleProps) {
 
   const themeStyles = useMemo(() => {
     return {
-      backgroundColor: dark ? "#333333" : "#f0f0f0",
-      color: dark ? "#f0f0f0" : "#333333",
+      backgroundColor: dark ? "#000000" : "#ffffff",
+      color: dark ? "#ffffff" : "#000000",
     };
   }, [dark]);
   return <div style={themeStyles}>{children}</div>;

@@ -9,8 +9,8 @@ export function Navigation() {
     <nav
       className={`z-10 fixed h-[100px] w-full flex justify-between items-center px-5 border-b-[3px] ${
         dark
-          ? "border-[#f0f0f0] bg-[#333333] text-[#f0f0f0]"
-          : "border-[#333333] bg-[#f0f0f0] text-[#333333]"
+          ? "border-[#ffffff] bg-[#000000] text-[#ffffff]"
+          : "border-[#000000] bg-[#ffffff] text-[#000000]"
       } font-serif`}
     >
       <span className="max-w-[200px]">NT</span>

@@ -11,7 +11,7 @@ export const hobbies: MySkills[] = [
   },
   {
     id: 3,
-    title: "Yoga",
+    title: "Théâtre",
   },
   {
     id: 5,

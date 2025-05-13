@@ -3,7 +3,7 @@ import { MyExperience } from "../models/MyExperience";
 export const studies: MyExperience[] = [
   {
     id: 1,
-    name: "Simplon / Microsoft",
+    name: "Simplon / École IA Microsoft",
     occupation: "Développeur IA",
     period: "06/2025 - 01/2027",
     description: "En alternance",

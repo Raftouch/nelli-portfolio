@@ -19,9 +19,17 @@ export const projects: MyProject[] = [
   },
   {
     id: 3,
-    title: "Crypto Overview Today",
-    image: "../images/crypto-today.png",
-    url: "https://github.com/Raftouch/crypto-overview",
-    description: "Python · FastAPI · API · Git · React · Typescript",
+    title: "Say Smart - Text to Speech",
+    image: "../images/say-smart.png",
+    url: "https://github.com/Raftouch/say-smart",
+    description:
+      "Python · FastAPI · Hugging Face · PyTorch · REST API · Text-to-Speech · SoundFile - Docker",
   },
+  // {
+  //   id: 4,
+  //   title: "Crypto Overview Today",
+  //   image: "../images/crypto-today.png",
+  //   url: "https://github.com/Raftouch/crypto-overview",
+  //   description: "Python · FastAPI · API · Git · React · Typescript",
+  // },
 ];

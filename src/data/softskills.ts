@@ -11,7 +11,7 @@ export const softskills: MySkills[] = [
   },
   {
     id: 3,
-    title: "Courage",
+    title: "Aisance relationnelle",
   },
   {
     id: 4,

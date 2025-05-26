@@ -14,14 +14,14 @@ export function AboutPart() {
       <div className="max-w-[550px] flex flex-col gap-5 ml-20 mr-20">
         <div>
           <h1 className="text-3xl font-bold uppercase mb-5">
-            Developpeuse IA, en alternance
+            Développeur IA, en alternance
           </h1>
           <p className="mb-5">Bonjour, je suis Nelli,</p>
           <p>
             Passionnée par l’intelligence artificielle et le machine learning,
-            je vous propose mes compétences en tant que Développeuse Python dans
-            le cadre d’une alternance. Durée de 16 mois à partir de septembre
-            2025.
+            je vous propose mes compétences en développement logiciel et en
+            relations client, dans le cadre d’une alternance. Durée de 16 mois à
+            partir de septembre 2025.
           </p>
         </div>
         <div>

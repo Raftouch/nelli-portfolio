@@ -20,7 +20,7 @@ export function Experience() {
         </div>
       </div>
       <div>
-        <h1 className={heading}>Études</h1>
+        <h1 className={heading}>Formations</h1>
         <div className={experience}>
           {studies.map((study) => (
             <Education study={study} key={study.id} />

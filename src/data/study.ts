@@ -25,8 +25,8 @@ export const studies: MyExperience[] = [
   },
   {
     id: 4,
-    name: "ESCE Paris",
-    occupation: "Master 2 en Finance et Commerce international",
+    name: "ESCE Paris / Hochschule Augsburg",
+    occupation: "Master en Finances et Commerce international",
     period: "2013 – 2014",
     description: "",
   },

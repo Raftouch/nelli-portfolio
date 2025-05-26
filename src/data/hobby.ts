@@ -7,11 +7,11 @@ export const hobbies: MySkills[] = [
   },
   {
     id: 2,
-    title: "Mon chien",
+    title: "Théâtre",
   },
   {
     id: 3,
-    title: "Théâtre",
+    title: "Yoga",
   },
   {
     id: 5,

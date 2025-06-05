@@ -14,14 +14,15 @@ export function AboutPart() {
       <div className="max-w-[550px] flex flex-col gap-5 ml-20 mr-20">
         <div>
           <h1 className="text-3xl font-bold uppercase mb-5">
-            Développeur Fullstack, en alternance
+            Développeur Logiciel, en alternance
           </h1>
           <p className="mb-5">Bonjour, je suis Nelli,</p>
           <p>
-            Passionnée par les métiers de la tech, avec une première expérience,
-            je vous propose mes compétences en développement fullstack et en
-            relation client, dans le cadre d’une alternance de 18 mois à partir
-            de septembre 2025.
+            Passionnée par les métiers de la tech, je dispose d’une première
+            expérience en développement fullstack et en relation client. Je
+            propose mes compétences dans le cadre d’une alternance de 18 mois à
+            partir de septembre 2025, avec un intérêt particulier pour les
+            projets en développement web ou en intelligence artificielle.
           </p>
         </div>
         <div>

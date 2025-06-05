@@ -11,7 +11,7 @@ export function Resume() {
       <div className="max-w-[400px] flex flex-col gap-2 p-8">
         <p className="text-sm">Nelli Timorshina</p>
         <h1 className="uppercase font-bold">
-          Développeur Fullstack, en alternance
+          Développeur Logiciel, en alternance
         </h1>
       </div>
       <button

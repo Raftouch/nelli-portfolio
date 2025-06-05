@@ -4,8 +4,8 @@ export const studies: MyExperience[] = [
   {
     id: 1,
     name: "",
-    occupation: "Développeur Fullstack",
-    period: "09/2025 - 02/2027",
+    occupation: "Développeur Fullstack / Intelligence Artificielle",
+    period: "09/2025 - 03/2027",
     description: "En alternance",
   },
   {
@@ -18,7 +18,7 @@ export const studies: MyExperience[] = [
   {
     id: 3,
     name: "Simplon",
-    occupation: "Développement web et web mobile, Bac+2",
+    occupation: "Développeur web et web mobile, Bac+2",
     period: "12/2022 - 07/2023",
     description:
       "Développement fullstack (NodeJS), maquettage du site web (Figma), méthodes agiles (SCRUM)",

@@ -25,11 +25,18 @@ export const projects: MyProject[] = [
     description:
       "Python · FastAPI · Hugging Face · PyTorch · REST API · Text-to-Speech · SoundFile - Docker",
   },
-  // {
-  //   id: 4,
-  //   title: "Crypto Overview Today",
-  //   image: "../images/crypto-today.png",
-  //   url: "https://github.com/Raftouch/crypto-overview",
-  //   description: "Python · FastAPI · API · Git · React · Typescript",
-  // },
+  {
+    id: 4,
+    title: "Crypto Overview Today",
+    image: "../images/crypto-today.png",
+    url: "https://github.com/Raftouch/crypto-overview",
+    description: "Python · FastAPI · API · Git · React · Typescript",
+  },
+  {
+    id: 5,
+    title: "Mascots App",
+    image: "../images/mascots-app.png",
+    url: "https://github.com/Raftouch/mascots-app-ejs",
+    description: "Node.js · JavaScript · Express.js · EJS · MongoDB",
+  },
 ];

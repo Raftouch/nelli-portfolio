@@ -1,5 +1,7 @@
 import React, { useContext } from "react";
 import { PortfolioContext } from "../context/PortfolioContext";
+import lightDark from "../images/lightDark.png";
+import experience from "../images/experience.png";
 
 export default function ButtonsRight() {
   const { open, style } = useContext(PortfolioContext);
@@ -9,10 +11,10 @@ export default function ButtonsRight() {
   return (
     <div className="fixed top-1/2 right-3 flex flex-col items-end space-y-5">
       <button className={button} onClick={open}>
-        <img src="../images/exp.png" alt="experience" />
+        <img src={experience} alt="experience" />
       </button>
       <button className={button} onClick={style}>
-        <img src="../images/lightDark.png" alt="light-dark icon" />
+        <img src={lightDark} alt="light-dark icon" />
       </button>
     </div>
   );

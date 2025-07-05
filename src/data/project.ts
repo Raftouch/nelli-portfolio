@@ -39,4 +39,11 @@ export const projects: MyProject[] = [
     url: "https://github.com/Raftouch/mascots-app-ejs",
     description: "Node.js · JavaScript · Express.js · EJS · MongoDB",
   },
+  {
+    id: 6,
+    title: "Horizons Express",
+    image: "../images/horizons-express.png",
+    url: "https://horizons-express.netlify.app/",
+    description: "Node.js · TypeScript · Express.js · React · OpenWeather API",
+  },
 ];

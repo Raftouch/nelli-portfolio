@@ -46,4 +46,11 @@ export const projects: MyProject[] = [
     url: "https://horizons-express.netlify.app/",
     description: "Node.js · TypeScript · Express.js · React · OpenWeather API",
   },
+  {
+    id: 7,
+    title: "Arbres remarquables de Paris",
+    image: "../images/remarkable-trees.png",
+    url: "https://remarkable-trees-paris.netlify.app/",
+    description: "React · TypeScript · API · Maps",
+  },
 ];

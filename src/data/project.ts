@@ -50,7 +50,7 @@ export const projects: MyProject[] = [
     id: 7,
     title: "Arbres remarquables de Paris",
     image: "../images/remarkable-trees.png",
-    url: "https://remarkable-trees-paris.netlify.app/",
+    url: "https://github.com/Raftouch/remarquables",
     description: "React · TypeScript · API · Maps",
   },
 ];

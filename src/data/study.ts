@@ -3,9 +3,9 @@ import { MyExperience } from "../models/MyExperience";
 export const studies: MyExperience[] = [
   {
     id: 1,
-    name: "",
-    occupation: "Développeur Fullstack / Intelligence Artificielle",
-    period: "09/2025 - 03/2027",
+    name: "DataScientest",
+    occupation: "Software Engineer",
+    period: "11/2025 - 05/2027",
     description: "En alternance",
   },
   {

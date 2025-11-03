@@ -18,11 +18,9 @@ export function AboutPart() {
           </h1>
           <p className="mb-5">Bonjour, je suis Nelli,</p>
           <p>
-            Passionnée par les métiers de la tech, je dispose d’une première
-            expérience en développement fullstack et en relation client. Je
-            propose mes compétences dans le cadre d’une alternance de 18 mois à
-            partir de septembre 2025, avec un intérêt particulier pour les
-            projets en développement web ou en intelligence artificielle.
+            Passionnée par les métiers de la tech, avec une première expérience,
+            je vous propose mes compétences en développement logiciel et en
+            relation client, dans le cadre d’une alternance.
           </p>
         </div>
         <div>

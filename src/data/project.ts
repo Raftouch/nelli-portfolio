@@ -53,4 +53,11 @@ export const projects: MyProject[] = [
     url: "https://github.com/Raftouch/remarquables",
     description: "React · TypeScript · API · Maps",
   },
+  {
+    id: 8,
+    title: "Woof Random",
+    image: "../images/dog-breeds.png",
+    url: "https://dogbreedsonline.netlify.app/",
+    description: "React · TypeScript · API",
+  },
 ];

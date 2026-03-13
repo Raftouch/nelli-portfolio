@@ -3,7 +3,7 @@ import { MySkills } from "../models/MySkills";
 export const hobbies: MySkills[] = [
   {
     id: 1,
-    title: "Langues étrangères",
+    title: "Apprentissage des langues",
   },
   {
     id: 2,
@@ -16,5 +16,9 @@ export const hobbies: MySkills[] = [
   {
     id: 5,
     title: "Voyages",
+  },
+  {
+    id: 6,
+    title: "Point de croix",
   },
 ];

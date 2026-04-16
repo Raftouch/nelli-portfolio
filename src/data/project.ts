@@ -36,13 +36,14 @@ export const projects: MyProject[] = [
     image: "../images/rafton.png",
     url: "https://github.com/Raftouch/rafton-music-tree",
     description:
-      "Next.js · NestJS · Express.js · TypeScript · Docker · API · PostgreSQL · CI/CD (GitHub Actions) · Microservices · Conception de bases de données (MCD, MLD, MPD)",
+      "Next.js · NestJS · Express.js · TypeScript · Auth (JWT, RBAC) · Docker · API · PostgreSQL · CI/CD (GitHub Actions) · Microservices · Conception de bases de données (MCD, MLD, MPD)",
   },
   {
     id: 6,
     title: "Paw Pals 🐾",
     image: "../images/paw-pals.png",
     url: "https://github.com/Raftouch/mascots-app-front",
-    description: "Node.js · Express.js · React · TypeScript · MongoDB",
+    description:
+      "Node.js · Express.js · Auth (Passport.js, sessions) · React · TypeScript · MongoDB",
   },
 ];

@@ -14,13 +14,13 @@ export function AboutPart() {
       <div className="max-w-[550px] flex flex-col gap-5 ml-20 mr-20">
         <div>
           <h1 className="text-3xl font-bold uppercase mb-5">
-            Développeur Logiciel, en alternance
+            Développeur Logiciel
           </h1>
           <p className="mb-5">Bonjour, je suis Nelli,</p>
           <p>
             Passionnée par les métiers de la tech, avec une première expérience,
             je vous propose mes compétences en développement logiciel et en
-            relation client, dans le cadre d’une alternance.
+            relation client.
           </p>
         </div>
         <div>
